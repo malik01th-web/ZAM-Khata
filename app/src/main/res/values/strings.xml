@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">ZAM Khata</string>
+    <string name="app_subtitle">Friends Udhaar Ledger</string>
+    <string name="net_balance_label">Net Balance</string>
+    <string name="total_to_receive_label">To Receive</string>
+    <string name="total_to_give_label">To Give</string>
+    <string name="friends_section_title">Friends</string>
+    <string name="search_friends_placeholder">Search friends by name or phone…</string>
+    <string name="add_friend_cta">Add Friend</string>
+    <string name="empty_friends_title">No friends added yet</string>
+    <string name="empty_friends_subtitle">Add a friend to start tracking Udhaar diya, Udhaar liya, and Wapsi repayments in Rs.</string>
+    <string name="empty_search_title">No matching friends</string>
+    <string name="empty_search_subtitle">Try a different name or 03XXXXXXXXX phone number.</string>
+    <string name="label_owes_you">Owes you</string>
+    <string name="label_you_owe">You owe</string>
+    <string name="label_settled">Settled</string>
+    <string name="label_entry_singular">%1$d entry</string>
+    <string name="label_entry_plural">%1$d entries</string>
+    <string name="friend_count_singular">1 Friend</string>
+    <string name="friend_count_plural">%1$d Friends</string>
+    <string name="net_hint_positive">Friends owe you more overall</string>
+    <string name="net_hint_negative">You owe friends more overall</string>
+    <string name="net_hint_settled">Everything is balanced</string>
+
+    <!-- Add Friend Sheet -->
+    <string name="add_friend_sheet_title">Add a Friend</string>
+    <string name="friend_name_label">Friend Name *</string>
+    <string name="friend_name_placeholder">e.g., Hamza Ali</string>
+    <string name="friend_phone_label">Phone Number (Optional)</string>
+    <string name="friend_phone_placeholder">03XXXXXXXXX</string>
+    <string name="friend_phone_helper">Pakistan mobile format: 11 digits starting with 03</string>
+    <string name="error_friend_name_required">Please enter your friend\'s name.</string>
+    <string name="error_invalid_pakistan_phone">Enter a valid Pakistan number in 03XXXXXXXXX format (11 digits).</string>
+    <string name="action_save_friend">Save Friend</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+
+    <!-- Friend Detail Screen -->
+    <string name="cd_back_button">Go back</string>
+    <string name="cd_edit_entry">Edit entry</string>
+    <string name="cd_delete_entry">Delete entry</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_switch_language">Switch language</string>
+    <string name="cd_switch_to_light">Switch to Light Mode</string>
+    <string name="cd_switch_to_dark">Switch to Dark Mode</string>
+    <string name="friend_not_found_title">Friend not found</string>
+    <string name="friend_not_found_subtitle">This friend may have been removed.</string>
+    <string name="action_add_entry">Add Entry</string>
+    <string name="action_record_wapsi">Record Wapsi</string>
+    <string name="history_section_title">Transaction History</string>
+    <string name="empty_history_title">No entries yet</string>
+    <string name="empty_history_subtitle">Tap Add Entry when you lend (Udhaar diya) or borrow (Udhaar liya) money.</string>
+    <string name="stat_total_lent">Total Lent</string>
+    <string name="stat_total_borrowed">Total Borrowed</string>
+    <string name="stat_total_repaid">Total Wapsi</string>
+    <string name="friend_owes_you_title">%1$s owes you</string>
+    <string name="you_owe_friend_title">You owe %1$s</string>
+    <string name="settled_hero_title">Hisaab Barabar • Settled</string>
+
+    <!-- Entry Types -->
+    <string name="type_udhaar_diya">Udhaar diya</string>
+    <string name="type_udhaar_diya_hint">I lent money</string>
+    <string name="type_udhaar_liya">Udhaar liya</string>
+    <string name="type_udhaar_liya_hint">I borrowed money</string>
+    <string name="type_wapsi_received">Wapsi • Received</string>
+    <string name="type_wapsi_paid">Wapsi • Paid</string>
+
+    <!-- Add / Edit Entry Sheet -->
+    <string name="add_entry_sheet_title">Add Udhaar Entry</string>
+    <string name="edit_entry_sheet_title">Edit Entry</string>
+    <string name="amount_label">Amount (Rs) *</string>
+    <string name="amount_placeholder">0</string>
+    <string name="currency_prefix">Rs </string>
+    <string name="currency_rs_format">Rs %1$s</string>
+    <string name="entry_type_label">Entry Type</string>
+    <string name="entry_date_label">Date</string>
+    <string name="entry_note_label">Note (Optional)</string>
+    <string name="entry_note_placeholder">e.g., Chai &amp; dinner, fuel, rent split…</string>
+    <string name="error_invalid_amount">Please enter an amount greater than Rs 0.</string>
+    <string name="action_save_entry">Save Entry</string>
+    <string name="action_update_entry">Update Entry</string>
+
+    <!-- Record Wapsi Sheet -->
+    <string name="wapsi_sheet_title">Record Wapsi (Repayment)</string>
+    <string name="wapsi_direction_label">Repayment Direction</string>
+    <string name="wapsi_direction_received">Friend paid me</string>
+    <string name="wapsi_direction_paid">I paid friend</string>
+    <string name="wapsi_reduces_their_debt">Reduces what they owe</string>
+    <string name="wapsi_reduces_your_debt">Reduces what you owe</string>
+    <string name="wapsi_status_friend_owes">%1$s owes you %2$s</string>
+    <string name="wapsi_status_you_owe">You owe %1$s %2$s</string>
+    <string name="wapsi_status_settled">Current balance with %1$s is Rs 0</string>
+    <string name="wapsi_full_balance_chip">Fill full balance (%1$s)</string>
+    <string name="wapsi_note_placeholder">e.g., Cash, JazzCash, Easypaisa, SadaPay…</string>
+    <string name="action_save_wapsi">Save Wapsi</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_entry_dialog_title">Delete this entry?</string>
+    <string name="delete_entry_dialog_message">This will remove the %1$s entry of %2$s and recalculate the friend\'s balance.</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Errors -->
+    <string name="error_save_friend_failed">Could not save friend to database: %1$s</string>
+    <string name="error_save_entry_failed">Could not save entry to database: %1$s</string>
+    <string name="error_update_entry_failed">Could not update entry in database: %1$s</string>
+    <string name="error_delete_entry_failed">Could not delete entry from database: %1$s</string>
+    <string name="error_unknown">Unexpected storage error</string>
+
+    <!-- Auth & Account -->
+    <string name="auth_welcome_title">Welcome to ZAM Khata</string>
+    <string name="auth_welcome_subtitle">Sign up or log in with your email so your friends and entries stay private to your account.</string>
+    <string name="auth_tab_login">Log In</string>
+    <string name="auth_tab_signup">Sign Up</string>
+    <string name="auth_email_label">Email Address</string>
+    <string name="auth_email_placeholder">you@example.com</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_confirm_password_label">Confirm Password</string>
+    <string name="auth_login_cta">Log In</string>
+    <string name="auth_signup_cta">Create Account</string>
+    <string name="cd_show_password">Show password</string>
+    <string name="cd_hide_password">Hide password</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_password_too_short">Password must be at least 6 characters.</string>
+    <string name="error_passwords_do_not_match">Passwords do not match.</string>
+    <string name="error_email_already_exists">An account with this email already exists. Please log in.</string>
+    <string name="error_invalid_credentials">Incorrect email or password.</string>
+    <string name="error_auth_storage_failed">Could not complete authentication: %1$s</string>
+
+    <!-- M-PIN Setup & Unlock -->
+    <string name="mpin_create_title">Create 4-Digit M-PIN</string>
+    <string name="mpin_create_subtitle">Set a 4-digit M-PIN to protect your khata every time you open the app.</string>
+    <string name="mpin_confirm_title">Confirm Your M-PIN</string>
+    <string name="mpin_confirm_subtitle">Re-enter the same 4-digit M-PIN to finish setup.</string>
+    <string name="mpin_reset_title">Set New 4-Digit M-PIN</string>
+    <string name="mpin_reset_subtitle">Enter a new 4-digit M-PIN for %1$s.</string>
+    <string name="mpin_error_mismatch">M-PINs did not match. Please try again.</string>
+    <string name="mpin_error_save_failed">Could not save M-PIN: %1$s</string>
+    <string name="mpin_unlock_title">Enter M-PIN</string>
+    <string name="mpin_unlock_subtitle">Unlock khata for %1$s</string>
+    <string name="mpin_wrong_attempts_remaining">Incorrect M-PIN. %1$d attempts remaining.</string>
+    <string name="mpin_wrong_attempt_one_remaining">Incorrect M-PIN. 1 attempt remaining before 15-minute lock.</string>
+    <string name="mpin_locked_title">M-PIN Locked</string>
+    <string name="mpin_locked_message">Too many wrong attempts. Try again in %1$s or tap Forgot M-PIN.</string>
+    <string name="mpin_forgot_button">Forgot M-PIN?</string>
+    <string name="mpin_switch_account">Switch Account</string>
+    <string name="cd_backspace">Delete digit</string>
+    <string name="forgot_mpin_title">Reset M-PIN</string>
+    <string name="forgot_mpin_subtitle">Re-verify your account email and password to set a new 4-digit M-PIN.</string>
+    <string name="forgot_mpin_verify_cta">Verify &amp; Reset</string>
+    <string name="error_email_mismatch_for_reset">Entered email does not match your signed-in account.</string>
+
+    <!-- Logout -->
+    <string name="cd_logout">Log out</string>
+    <string name="logout_dialog_title">Log out?</string>
+    <string name="logout_dialog_message">Your friends and entries remain saved for %1$s. You can log back in anytime.</string>
+    <string name="action_logout">Log Out</string>
+</resources>

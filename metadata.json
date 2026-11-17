@@ -1,0 +1,6 @@
+{
+  "name": "ZAM Khata",
+  "description": "Track money lent (Udhaar diya), borrowed (Udhaar liya), and repayments (Wapsi) with friends in Rs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

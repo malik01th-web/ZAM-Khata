@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">زام کھاتہ</string>
+    <string name="app_subtitle">دوستوں کے ادھار کا کھاتہ</string>
+    <string name="net_balance_label">مجموعی بیلنس</string>
+    <string name="total_to_receive_label">لینا ہے</string>
+    <string name="total_to_give_label">دینا ہے</string>
+    <string name="friends_section_title">دوست</string>
+    <string name="search_friends_placeholder">نام یا فون نمبر سے تلاش کریں…</string>
+    <string name="add_friend_cta">دوست شامل کریں</string>
+    <string name="empty_friends_title">ابھی کوئی دوست شامل نہیں</string>
+    <string name="empty_friends_subtitle">روپے میں ادھار دیا، ادھار لیا اور واپسی کا حساب رکھنے کے لیے دوست شامل کریں۔</string>
+    <string name="empty_search_title">کوئی دوست نہیں ملا</string>
+    <string name="empty_search_subtitle">کوئی دوسرا نام یا 03XXXXXXXXX نمبر آزمائیں۔</string>
+    <string name="label_owes_you">آپ نے لینا ہے</string>
+    <string name="label_you_owe">آپ نے دینا ہے</string>
+    <string name="label_settled">حساب برابر</string>
+    <string name="label_entry_singular">%1$d اندراج</string>
+    <string name="label_entry_plural">%1$d اندراجات</string>
+    <string name="friend_count_singular">1 دوست</string>
+    <string name="friend_count_plural">%1$d دوست</string>
+    <string name="net_hint_positive">مجموعی طور پر دوستوں سے رقم لینی ہے</string>
+    <string name="net_hint_negative">مجموعی طور پر دوستوں کو رقم دینی ہے</string>
+    <string name="net_hint_settled">سب حساب برابر ہے</string>
+
+    <!-- Add Friend Sheet -->
+    <string name="add_friend_sheet_title">دوست شامل کریں</string>
+    <string name="friend_name_label">دوست کا نام *</string>
+    <string name="friend_name_placeholder">مثلاً حمزہ علی</string>
+    <string name="friend_phone_label">فون نمبر (اختیاری)</string>
+    <string name="friend_phone_placeholder">03XXXXXXXXX</string>
+    <string name="friend_phone_helper">پاکستان موبائل فارمیٹ: 03 سے شروع ہونے والے 11 ہندسے</string>
+    <string name="error_friend_name_required">براہ کرم دوست کا نام درج کریں۔</string>
+    <string name="error_invalid_pakistan_phone">درست پاکستانی نمبر 03XXXXXXXXX فارمیٹ (11 ہندسے) میں درج کریں۔</string>
+    <string name="action_save_friend">دوست محفوظ کریں</string>
+    <string name="action_cancel">منسوخ کریں</string>
+    <string name="action_ok">ٹھیک ہے</string>
+
+    <!-- Friend Detail Screen -->
+    <string name="cd_back_button">واپس جائیں</string>
+    <string name="cd_edit_entry">اندراج ترمیم کریں</string>
+    <string name="cd_delete_entry">اندراج حذف کریں</string>
+    <string name="cd_clear_search">تلاش صاف کریں</string>
+    <string name="cd_switch_language">زبان تبدیل کریں</string>
+    <string name="cd_switch_to_light">لائٹ موڈ فعال کریں</string>
+    <string name="cd_switch_to_dark">ڈارک موڈ فعال کریں</string>
+    <string name="friend_not_found_title">دوست نہیں ملا</string>
+    <string name="friend_not_found_subtitle">ممکن ہے یہ دوست حذف کر دیا گیا ہو۔</string>
+    <string name="action_add_entry">اندراج شامل کریں</string>
+    <string name="action_record_wapsi">واپسی درج کریں</string>
+    <string name="history_section_title">لین دین کی تاریخ</string>
+    <string name="empty_history_title">ابھی کوئی اندراج نہیں</string>
+    <string name="empty_history_subtitle">رقم ادھار دینے یا لینے کے لیے اندراج شامل کریں پر ٹیپ کریں۔</string>
+    <string name="stat_total_lent">کل ادھار دیا</string>
+    <string name="stat_total_borrowed">کل ادھار لیا</string>
+    <string name="stat_total_repaid">کل واپسی</string>
+    <string name="friend_owes_you_title">%1$s نے آپ کو دینے ہیں</string>
+    <string name="you_owe_friend_title">آپ نے %1$s کو دینے ہیں</string>
+    <string name="settled_hero_title">حساب برابر • کوئی بقایا نہیں</string>
+
+    <!-- Entry Types -->
+    <string name="type_udhaar_diya">ادھار دیا</string>
+    <string name="type_udhaar_diya_hint">میں نے رقم دی</string>
+    <string name="type_udhaar_liya">ادھار لیا</string>
+    <string name="type_udhaar_liya_hint">میں نے رقم لی</string>
+    <string name="type_wapsi_received">واپسی • وصول ہوئی</string>
+    <string name="type_wapsi_paid">واپسی • ادا کی</string>
+
+    <!-- Add / Edit Entry Sheet -->
+    <string name="add_entry_sheet_title">ادھار کا اندراج شامل کریں</string>
+    <string name="edit_entry_sheet_title">اندراج میں ترمیم کریں</string>
+    <string name="amount_label">رقم (روپے) *</string>
+    <string name="amount_placeholder">0</string>
+    <string name="currency_prefix">روپے </string>
+    <string name="currency_rs_format">روپے %1$s</string>
+    <string name="entry_type_label">اندراج کی قسم</string>
+    <string name="entry_date_label">تاریخ</string>
+    <string name="entry_note_label">نوٹ (اختیاری)</string>
+    <string name="entry_note_placeholder">مثلاً چائے اور کھانا، پیٹرول، کرایہ…</string>
+    <string name="error_invalid_amount">براہ کرم 0 روپے سے زیادہ رقم درج کریں۔</string>
+    <string name="action_save_entry">اندراج محفوظ کریں</string>
+    <string name="action_update_entry">اندراج اپ ڈیٹ کریں</string>
+
+    <!-- Record Wapsi Sheet -->
+    <string name="wapsi_sheet_title">واپسی درج کریں</string>
+    <string name="wapsi_direction_label">واپسی کی نوعیت</string>
+    <string name="wapsi_direction_received">دوست نے مجھے دی</string>
+    <string name="wapsi_direction_paid">میں نے دوست کو دی</string>
+    <string name="wapsi_reduces_their_debt">ان کا بقایا کم ہوگا</string>
+    <string name="wapsi_reduces_your_debt">آپ کا بقایا کم ہوگا</string>
+    <string name="wapsi_status_friend_owes">%1$s نے آپ کو %2$s دینے ہیں</string>
+    <string name="wapsi_status_you_owe">آپ نے %1$s کو %2$s دینے ہیں</string>
+    <string name="wapsi_status_settled">%1$s کے ساتھ موجودہ بیلنس 0 روپے ہے</string>
+    <string name="wapsi_full_balance_chip">پوری رقم بھریں (%1$s)</string>
+    <string name="wapsi_note_placeholder">مثلاً نقد، جیز کیش، ایزی پیسہ، سادہ پے…</string>
+    <string name="action_save_wapsi">واپسی محفوظ کریں</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_entry_dialog_title">کیا یہ اندراج حذف کریں؟</string>
+    <string name="delete_entry_dialog_message">اس سے %2$s کا "%1$s" اندراج حذف ہو جائے گا اور دوست کا بیلنس دوبارہ حساب ہوگا۔</string>
+    <string name="action_delete">حذف کریں</string>
+
+    <!-- Errors -->
+    <string name="error_save_friend_failed">دوست ڈیٹابیس میں محفوظ نہیں ہو سکا: %1$s</string>
+    <string name="error_save_entry_failed">اندراج ڈیٹابیس میں محفوظ نہیں ہو سکا: %1$s</string>
+    <string name="error_update_entry_failed">اندراج ڈیٹابیس میں اپ ڈیٹ نہیں ہو سکا: %1$s</string>
+    <string name="error_delete_entry_failed">اندراج ڈیٹابیس سے حذف نہیں ہو سکا: %1$s</string>
+    <string name="error_unknown">ڈیٹابیس محفوظ کرنے میں غیر متوقع خرابی</string>
+
+    <!-- Auth & Account -->
+    <string name="auth_welcome_title">زام کھاتہ میں خوش آمدید</string>
+    <string name="auth_welcome_subtitle">اپنے دوستوں اور اندراجات کو اپنے اکاؤنٹ تک محدود اور محفوظ رکھنے کے لیے سائن اپ یا لاگ ان کریں۔</string>
+    <string name="auth_tab_login">لاگ ان</string>
+    <string name="auth_tab_signup">سائن اپ</string>
+    <string name="auth_email_label">ای میل ایڈریس</string>
+    <string name="auth_email_placeholder">you@example.com</string>
+    <string name="auth_password_label">پاس ورڈ</string>
+    <string name="auth_confirm_password_label">پاس ورڈ کی تصدیق کریں</string>
+    <string name="auth_login_cta">لاگ ان کریں</string>
+    <string name="auth_signup_cta">اکاؤنٹ بنائیں</string>
+    <string name="cd_show_password">پاس ورڈ دکھائیں</string>
+    <string name="cd_hide_password">پاس ورڈ چھپائیں</string>
+    <string name="error_invalid_email">براہ کرم درست ای میل ایڈریس درج کریں۔</string>
+    <string name="error_password_too_short">پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے۔</string>
+    <string name="error_passwords_do_not_match">پاس ورڈ آپس میں مطابقت نہیں رکھتے۔</string>
+    <string name="error_email_already_exists">اس ای میل پر پہلے سے اکاؤنٹ موجود ہے۔ براہ کرم لاگ ان کریں۔</string>
+    <string name="error_invalid_credentials">ای میل یا پاس ورڈ غلط ہے۔</string>
+    <string name="error_auth_storage_failed">تصدیق مکمل نہیں ہو سکی: %1$s</string>
+
+    <!-- M-PIN Setup & Unlock -->
+    <string name="mpin_create_title">4 ہندسوں کا ایم پن بنائیں</string>
+    <string name="mpin_create_subtitle">ہر بار ایپ کھولنے پر اپنا کھاتہ محفوظ رکھنے کے لیے 4 ہندسوں کا ایم پن سیٹ کریں۔</string>
+    <string name="mpin_confirm_title">ایم پن کی تصدیق کریں</string>
+    <string name="mpin_confirm_subtitle">سیٹ اپ مکمل کرنے کے لیے وہی 4 ہندسوں کا ایم پن دوبارہ درج کریں۔</string>
+    <string name="mpin_reset_title">نیا 4 ہندسوں کا ایم پن سیٹ کریں</string>
+    <string name="mpin_reset_subtitle">%1$s کے لیے نیا 4 ہندسوں کا ایم پن درج کریں۔</string>
+    <string name="mpin_error_mismatch">ایم پن آپس میں نہیں ملے۔ دوبارہ کوشش کریں۔</string>
+    <string name="mpin_error_save_failed">ایم پن محفوظ نہیں ہو سکا: %1$s</string>
+    <string name="mpin_unlock_title">ایم پن درج کریں</string>
+    <string name="mpin_unlock_subtitle">%1$s کا کھاتہ کھولیں</string>
+    <string name="mpin_wrong_attempts_remaining">غلط ایم پن۔ %1$d کوششیں باقی ہیں۔</string>
+    <string name="mpin_wrong_attempt_one_remaining">غلط ایم پن۔ 15 منٹ لاک سے پہلے 1 کوشش باقی ہے۔</string>
+    <string name="mpin_locked_title">ایم پن لاک ہے</string>
+    <string name="mpin_locked_message">بہت زیادہ غلط کوششیں۔ %1$s بعد دوبارہ کوشش کریں یا ایم پن بھول گئے پر ٹیپ کریں۔</string>
+    <string name="mpin_forgot_button">ایم پن بھول گئے؟</string>
+    <string name="mpin_switch_account">اکاؤنٹ تبدیل کریں</string>
+    <string name="cd_backspace">ہندسہ مٹائیں</string>
+    <string name="forgot_mpin_title">ایم پن ری سیٹ کریں</string>
+    <string name="forgot_mpin_subtitle">نیا 4 ہندسوں کا ایم پن سیٹ کرنے کے لیے اپنا ای میل اور پاس ورڈ تصدیق کریں۔</string>
+    <string name="forgot_mpin_verify_cta">تصدیق کریں اور ری سیٹ کریں</string>
+    <string name="error_email_mismatch_for_reset">درج کردہ ای میل موجودہ سائن ان اکاؤنٹ سے مطابقت نہیں رکھتا۔</string>
+
+    <!-- Logout -->
+    <string name="cd_logout">لاگ آؤٹ</string>
+    <string name="logout_dialog_title">لاگ آؤٹ کریں؟</string>
+    <string name="logout_dialog_message">آپ کے دوست اور اندراجات %1$s کے لیے محفوظ رہیں گے۔ آپ کسی بھی وقت دوبارہ لاگ ان کر سکتے ہیں۔</string>
+    <string name="action_logout">لاگ آؤٹ کریں</string>
+</resources>
